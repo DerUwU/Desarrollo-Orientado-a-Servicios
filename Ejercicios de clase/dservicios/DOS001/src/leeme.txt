@@ -1,0 +1,34 @@
+--------Iniciar todo-------
+
+npm init
+    backencito
+    0.0.1
+    (yes)
+    (yes)
+    (yes)
+    desarrollo
+    yes
+
+--------Dependencias-------
+
+npm i cors
+npm i morgan
+npm i express
+npm i jsonwebtoken
+npm i pg-promise
+
+npm i @types/cors --save-dev
+npm i @types/morgan --save-dev
+npm i @types/express --save-dev
+npm i @types/jsonwebtoken --save-dev
+npm i @types/pg-promise --save-dev
+
+------Scrips-------
+
+"dev": "nodemon build/index.js"
+"build": "tsc-w"
+
+-------Typescrip-------
+
+tsc --init (Si no sirve en CMD)
+
