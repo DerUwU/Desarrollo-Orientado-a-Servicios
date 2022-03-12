@@ -12,12 +12,12 @@ INSERT INTO semestres(nombre_semestre) VALUES('Semestre 3');
 
 INSERT INTO pensums(cod_programa, nombre_pensum) VALUES (1, 'Pensum 2022-1');
 INSERT INTO pensums(cod_programa, nombre_pensum) VALUES (2, 'Pensum 2000-2');
-INSERT INTO pensums(cod_programa, nombre_pensum) VALUES (1, 'Pensum 2010-2');
+INSERT INTO pensums(cod_programa, nombre_pensum) VALUES (3, 'Pensum 2010-2');
 
 INSERT INTO materiapensum(cod_pensum, cod_materia, cod_semestre) VALUES(1, 1, 3);
 INSERT INTO materiapensum(cod_pensum, cod_materia, cod_semestre) VALUES(2, 2, 1);
-INSERT INTO materiapensum(cod_pensum, cod_materia, cod_semestre) VALUES(1, 3, 2);
+INSERT INTO materiapensum(cod_pensum, cod_materia, cod_semestre) VALUES(3, 3, 2);
 
-INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('der@gmail.com', "123456");
-INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('polar@gmail.com', "123456");
-INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('mapu@gmail.com', "123456");
+INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('der@gmail.com', '123456');
+INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('polar@gmail.com', '123456');
+INSERT INTO accesos(correo_acceso, clave_acceso) VALUES('mapu@gmail.com', '123456');
