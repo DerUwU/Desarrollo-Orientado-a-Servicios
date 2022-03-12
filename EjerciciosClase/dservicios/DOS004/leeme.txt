@@ -1,0 +1,46 @@
+--------Iniciar todo-------
+
+npm init
+    backencito
+    0.0.1
+    a
+    (yes)
+    (yes)
+    (yes)
+    node
+    desarrollo
+    yes
+
+--------Dependencias-------
+
+npm i cors
+npm i morgan
+npm i express
+npm i jsonwebtoken
+npm i pg-promise
+npm i nodemon
+
+npm i cors, morgan, express, jsonwebtoken, pg-promise, nodemon
+
+npm i @types/cors --save-dev
+npm i @types/morgan --save-dev
+npm i @types/express --save-dev
+npm i @types/jsonwebtoken --save-dev
+npm i @types/pg-promise --save-dev
+
+npm i @types/cors, @types/morgan, @types/express, @types/jsonwebtoken, @types/pg-promise --save-dev
+
+------Scrips-------
+
+"dev": "nodemon build/index.js",
+"build": "tsc -w"
+
+-------Typescrip-------
+
+tsc --init (Si no sirve en CMD)
+
+
+-----tsconfig--------
+
+Buscar OUTDIR y quitar comentario y ponerle ./build
+
